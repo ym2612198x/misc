@@ -1,0 +1,352 @@
+{
+  	"Detectors":[
+		{
+			"DetectorName": "ApiKey",
+			"SearchQuery": "(\"api key\" OR \"api_key\")"
+		},
+		{
+			"DetectorName": "AccessKey",
+			"SearchQuery": "(\"access key\" OR \"access_key\" OR \"access keys\")"
+		},
+		{
+			"DetectorName": "ApiSecret",
+			"SearchQuery": "(\"api secret\" OR \"api_secret\")"
+		},
+		{
+			"DetectorName": "AppKey",
+			"SearchQuery": "(\"app key\" OR \"app_key\" OR \"app keys\")"
+		},
+		{
+			"DetectorName": "AppSecret",
+			"SearchQuery": "(\"app secret\" OR \"app_secret\")"
+		},
+		{
+			"DetectorName": "AwsSecret",
+			"SearchQuery": "(\"aws secret\" OR \"aws_secret\")"
+		},
+		{
+			"DetectorName": "AwsKey",
+			"SearchQuery": "(\"aws key\" OR \"aws_key\" OR \"aws keys\")"
+		},
+		{
+			"DetectorName": "AwsMetadata",
+			"SearchQuery": "(\"aws metadata\")"
+		},
+		{
+			"DetectorName": "AccessToken",
+			"SearchQuery": "(\"access token\" OR \"access_token\")"
+		},
+		{
+			"DetectorName": "ClientSecret",
+			"SearchQuery": "(\"client secret\" OR \"client_secret\")"
+		},
+		{
+			"DetectorName": "ConnectionString",
+			"SearchQuery": "(\"connection string\" OR \"connstring\")"
+		},
+		{
+			"DetectorName": "Credentials",
+			"SearchQuery": "(\"credentials\" OR \"creds\" OR \"credential\")"
+		},
+		{
+			"DetectorName": "DbPassword",
+			"SearchQuery": "(\"db password\" OR \"db_password\")"
+		},
+		{
+			"DetectorName": "DatabasePassword",
+			"SearchQuery": "(\"database password\" OR \"database_password\")"
+		},
+		{
+			"DetectorName": "DatabaseConnection",
+			"SearchQuery": "(\"database connection\" OR \"database_connection\")"
+		},
+		{
+			"DetectorName": "DomainController",
+			"SearchQuery": "(\"domain controller\" OR \"domain_controller\")"
+		},
+		{
+			"DetectorName": "DomainAdmin",
+			"SearchQuery": "(\"domain admin\" OR \"domain administrator\" OR \"domain_admin\")"
+		},
+		{
+			"DetectorName": "EnterpriseAdmin",
+			"SearchQuery": "(\"enterprise admin\" OR \"enterprise administrator\" OR \"enterprise_admin\")"
+		},
+		{
+			"DetectorName": "GlobalAdmin",
+			"SearchQuery": "(\"global admin\" OR \"global administrator\" OR \"global_admin\")"
+		},
+		{
+			"DetectorName": "DomainName",
+			"SearchQuery": "(\"domain name\" OR \"domain_name\")"
+		},
+		{
+			"DetectorName": "GcpKey",
+			"SearchQuery": "(\"gcp key\" OR \"gcp_key\")"
+		},
+		{
+			"DetectorName": "KeyVault",
+			"SearchQuery": "(\"key vault\" OR \"keyvault\")"
+		},
+		{
+			"DetectorName": "KeyStore",
+			"SearchQuery": "(\"key store\" OR \"keystore\")"
+		},
+		{
+			"DetectorName": "Krbtgt",
+			"SearchQuery": "(\"krbtgt\")"
+		},
+		{
+			"DetectorName": "Ldap",
+			"SearchQuery": "(\"ldap\")"
+		},
+		{
+			"DetectorName": "Ldaps",
+			"SearchQuery": "(\"ldaps\")"
+		},
+		{
+			"DetectorName": "Passphrase",
+			"SearchQuery": "(\"passphrase\")"
+		},
+		{
+			"DetectorName": "PrivateKey",
+			"SearchQuery": "(\"private key\" OR \"private_key\")"
+		},
+		{
+			"DetectorName": "PublicKey",
+			"SearchQuery": "(\"public key\" OR \"public_key\")"
+		},
+		{
+			"DetectorName": "RefreshToken",
+			"SearchQuery": "(\"refresh token\" OR \"refresh_token\")"
+		},
+		{
+			"DetectorName": "SecretKey",
+			"SearchQuery": "(\"secret key\" OR \"secret_key\")"
+		},
+		{
+			"DetectorName": "SecretsManager",
+			"SearchQuery": "(\"secrets manager\" OR \"secretsmanager\")"
+		},
+		{
+			"DetectorName": "ServicePrincipal",
+			"SearchQuery": "(\"service principal\" OR \"service_principal\" OR \"service principals\")"
+		},
+		{
+			"DetectorName": "SshKey",
+			"SearchQuery": "(\"ssh key\" OR \"ssh_key\")"
+		},
+		{
+			"DetectorName": "Vault",
+			"SearchQuery": "(\"vault\")"
+		},
+		{
+			"DetectorName": "AdministratorPassword",
+			"SearchQuery": "(\"administrator password\" OR \"administrator_password\")"
+		},
+		{
+			"DetectorName": "RootPassword",
+			"SearchQuery": "(\"root password\" OR \"root_password\")"
+		},
+		{
+			"DetectorName": "AdminCreds",
+			"SearchQuery": "(\"admin credentials\" OR \"admin_creds\")"
+		},
+		{
+			"DetectorName": "AdminToken",
+			"SearchQuery": "(\"admin token\" OR \"admin_token\")"
+		},
+		{
+			"DetectorName": "MfaSecret",
+			"SearchQuery": "(\"mfa secret\" OR \"mfa_secret\")"
+		},
+		{
+			"DetectorName": "ServiceAccountPassword",
+			"SearchQuery": "(\"service account password\" OR \"service_account_password\")"
+		},
+		{
+			"DetectorName": "AzureAdPassword",
+			"SearchQuery": "(\"azure ad password\" OR \"azure_ad_password\")"
+		},
+		{
+			"DetectorName": "TenantId",
+			"SearchQuery": "(\"tenant id\" OR \"tenant_id\")"
+		},
+		{
+			"DetectorName": "AppId",
+			"SearchQuery": "(\"app id\" OR \"app_id\")"
+		},
+		{
+			"DetectorName": "SubscriptionId",
+			"SearchQuery": "(\"subscription id\" OR \"subscription_id\")"
+		},
+		{
+			"DetectorName": "AccessTokenAdmin",
+			"SearchQuery": "(\"access token admin\" OR \"access_token_admin\")"
+		},
+		{
+			"DetectorName": "AzureKeyVaultSecret",
+			"SearchQuery": "(\"azure key vault secret\" OR \"azure_key_vault_secret\")"
+		},
+		{
+			"DetectorName": "AzureServicePrincipalSecret",
+			"SearchQuery": "(\"azure service principal secret\" OR \"azure_service_principal_secret\")"
+		},
+		{
+			"DetectorName": "M365Token",
+			"SearchQuery": "(\"m365 token\" OR \"m365_token\")"
+		},
+		{
+			"DetectorName": "GraphToken",
+			"SearchQuery": "(\"graph token\" OR \"graph_token\")"
+		},
+		{
+			"DetectorName": "OnedriveSecret",
+			"SearchQuery": "(\"onedrive secret\" OR \"onedrive_secret\")"
+		},
+		{
+			"DetectorName": "SharepointSecret",
+			"SearchQuery": "(\"sharepoint secret\" OR \"sharepoint_secret\")"
+		},
+		{
+			"DetectorName": "TeamsSecret",
+			"SearchQuery": "(\"teams secret\" OR \"teams_secret\")"
+		},
+		{
+			"DetectorName": "AdminApiKey",
+			"SearchQuery": "(\"admin api key\" OR \"admin_api_key\")"
+		},
+		{
+			"DetectorName": "PowerShellCred",
+			"SearchQuery": "(\"powershell cred\" OR \"powershell_cred\")"
+		},
+		{
+			"DetectorName": "LocalAdminCreds",
+			"SearchQuery": "(\"local admin creds\" OR \"local_admin_creds\")"
+		},
+		{
+			"DetectorName": "DatabaseAdminCreds",
+			"SearchQuery": "(\"database admin creds\" OR \"database_admin_creds\")"
+		},
+		{
+		"DetectorName": "AWS Keys",
+  		"SearchQuery": "(filetype:credentials OR filetype:txt OR filetype:config OR filetype:sh OR filetype:bashrc OR filetype:bash_profile OR filetype:env OR filetype:ps1 OR filetype:py OR filetype:java OR filetype:js OR filetype:json OR filetype:yaml OR filetype:xml OR filetype:toml OR filetype:yml OR filetype:ini OR filetype:conf OR filetype:sql OR filetype:sqlite3 OR filetype:sqlite OR filetype:log OR filetype:properties OR filetype:ts OR filetype:php OR filetype:psd1 OR filetype:psm1 OR filetype:rb OR filetype:exports OR filetype:functions OR filetype:profile OR filetype:zsh_history OR filetype:doc OR filetype:docx OR filetype:xls OR filetype:xlsx OR filetype:pdf) AND (\"AWS_ACCESS_KEY_ID\" OR \"AWS_SECRET_ACCESS_KEY\")"
+		},
+		{
+		"DetectorName": "Private Keys",
+		"SearchQuery": "(filetype:pem OR filetype:ppk OR filetype:key OR filetype:asc OR filetype:txt OR filetype:config OR filetype:xml OR filetype:py) AND (\"BEGIN RSA PRIVATE KEY\" OR \"BEGIN DSA PRIVATE KEY\" OR \"BEGIN EC PRIVATE KEY\")"
+		},
+		{
+		"DetectorName": "Private Key Found In Non-Standard Key File",
+		"SearchQuery": "(filetype:credentials OR filetype:txt OR filetype:config OR filetype:sh OR filetype:bashrc OR filetype:bash_profile OR filetype:env OR filetype:ps1 OR filetype:py OR filetype:java OR filetype:js OR filetype:json OR filetype:yaml OR filetype:xml OR filetype:toml OR filetype:yml OR filetype:ini OR filetype:conf OR filetype:sql OR filetype:sqlite3 OR filetype:sqlite OR filetype:log OR filetype:properties OR filetype:ts OR filetype:php OR filetype:psd1 OR filetype:psm1 OR filetype:rb OR filetype:exports OR filetype:functions OR filetype:profile OR filetype:zsh_history OR filetype:doc OR filetype:docx OR filetype:xls OR filetype:xlsx OR filetype:pdf) AND (begin NEAR(n=1) (RSA OR OPENSSH OR DSA OR EC OR PGP) NEAR(n=1) KEY)"
+		},
+		{
+		"DetectorName": "Database Connection Strings",
+		"SearchQuery": "((\"datasource\" NEAR(n=50) \"password\") OR (\"connectionstring\" NEAR(n=50) \"passw*\"))"
+		},
+		{
+		"DetectorName": "Image Deployment",
+		"SearchQuery": "(filetype:wim OR filetype:ova OR filetype:ovf)"
+		},
+		{
+		"DetectorName": "Domain Join Creds (customsettings)",
+		"SearchQuery": "filename:customsettings.ini"
+		},
+		{
+		"DetectorName": "FTP Client Config",
+		"SearchQuery": "filename:recentservers.xml OR filename:sftp-config.json"
+		},
+		{
+		"DetectorName": "FTP Server Config",
+		"SearchQuery": "filename:proftpdpasswd OR filename:filezilla.xml"
+		},
+		{
+		"DetectorName": "Git Credentials",
+		"SearchQuery": "filetype:.git-credentials"
+		},
+		{
+		"DetectorName": "Infrastructure As Code",
+		"SearchQuery": "(filetype:tf OR filetype:tfstate OR filetype:tfstate.backup OR filetype:tfplan OR filetype:yaml OR filetype:jinja OR filetype:yml OR filetype:pp OR filetype:bicep OR filetype:hot)"
+		},
+		{
+		"DetectorName": "Java DB Connection Strings",
+		"SearchQuery": "(filetype:jsp OR filetype:do OR filetype:java OR filetype:cfm) AND (getConnection NEAR(n=2) jdbc:)"
+		},
+		{
+		"DetectorName": "Jenkins",
+		"SearchQuery": "filename:credentials.xml OR filename:jenkins.plugins.publish_over_ssh.BapSshPublisherPlugin.xml"
+		},
+		{
+		"DetectorName": "Memory Dump",
+		"SearchQuery": "filetype:dmp OR filetype:vmem"
+		},
+		{
+		"DetectorName": "Net Config",
+		"SearchQuery": "filename:\"running-config.cfg\" OR filename:\"startup-config.cfg\" OR filename:\"running-config\" or filename:\"startup-config\""
+		},
+		{
+		"DetectorName": "PHP Connection Strings",
+		"SearchQuery": "(filetype:php OR filetype:phtml OR filetype:inc OR filetype:php3 OR filetype:php5 OR filetype:php7) AND (mysql_connect OR mysql_pconnect OR mysql_change_user OR pg_connect OR pg_pconnect)"
+		},
+		{
+		"DetectorName": "Password Manager",
+		"SearchQuery": "filetype:kdbx OR filetype:kdb OR filetype:psafe3 OR filetype:kwallet OR filetype:keychain OR filetype:agilekeychain OR filetype:cred"
+		},
+		{
+		"DetectorName": "Packet Capture",
+		"SearchQuery": "filetype:pcap OR filetype:pcapng OR filetype:cap"
+		},
+		{
+		"DetectorName": "PowerShell Credentials",
+		"SearchQuery": "(\"-SecureString\" OR \"-AsPlainText\" OR \"Net.NetworkCredential\") AND (filetype:ps1 OR filetype:psd1 OR filetype:psm1 OR filetype:txt OR filetype:env)"
+		},
+		{
+		"DetectorName": "Python DB Connection Strings",
+		"SearchQuery": "(filetype:py) AND (mysql.connector.connect OR psycopg2.connect)"
+		},
+		{
+		"DetectorName": "RDP Passwords",
+		"SearchQuery": "(filetype:rdp) AND (password)"
+		},
+		{
+		"DetectorName": "Remote Access",
+		"SearchQuery": "filetype:rdg OR filetype:rtsz OR filetype:rtsx OR filetype:ovpn OR filetype:vpn OR filetype:RDP"
+		},
+		{
+		"DetectorName": "Ruby Config",
+		"SearchQuery": "\"database.yml\" OR \".secret_token.rb\" OR \"knife.rb\" OR \"carrerwave.rb\" OR \"omiauth.rb\""
+		},
+		{
+		"DetectorName": "Ruby DB Connection String",
+		"SearchQuery": "(filetype:rb) AND (DBI.connect)"
+		},
+		{
+		"DetectorName": "SSH Keys",
+		"SearchQuery": "filename:id_rsa OR filename:id_dsa OR filename:id_ecdsa OR filename:id_ed25519"
+		},
+		{
+		"DetectorName": "Shell History",
+		"SearchQuery": "filename:.bash_history OR filename:.zsh_history OR filename:.sh_history OR filename:zhistory OR filename:.irb_history OR filename:ConsoleHost_History.txt"
+		},
+		{
+		"DetectorName": "Unattend Install",
+		"SearchQuery": "(filename:unattend.xml OR filename:autounattend.xml OR filename:sysprep.inf)"
+		},
+		{
+		"DetectorName": "NTDS",
+		"SearchQuery": "filename:\"NTDS.dit\""
+		},
+		{
+		"DetectorName": "Hashfile",
+		"SearchQuery": "filetype:pot"
+		},
+		{
+		"DetectorName": "Browser Creds",
+		"SearchQuery": "filename:logins.json"
+		},
+		{
+		"DetectorName": "Azure App Creds",
+		"SearchQuery": "(filetype:credentials OR filetype:txt OR filetype:config OR filetype:sh OR filetype:bashrc OR filetype:bash_profile OR filetype:env OR filetype:ps1 OR filetype:py OR filetype:java OR filetype:js OR filetype:json OR filetype:yaml OR filetype:xml OR filetype:toml OR filetype:yml OR filetype:ini OR filetype:conf OR filetype:sql OR filetype:sqlite3 OR filetype:sqlite OR filetype:log OR filetype:properties OR filetype:ts OR filetype:php OR filetype:psd1 OR filetype:psm1 OR filetype:rb OR filetype:exports OR filetype:functions OR filetype:profile OR filetype:zsh_history OR filetype:xls OR filetype:xlsx) AND ((client_id OR clientID) AND (tenant) AND (secret))"
+		}
+	]
+}
