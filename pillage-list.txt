@@ -1,0 +1,161 @@
+aad
+access key
+access token
+accesskey
+accesstoken
+active directory
+active_directory
+activedirectory
+ad
+api
+api key
+api_key
+apikey
+app key
+app secret
+appkey
+appsecret
+appsettings
+auth
+authentication
+authorization
+aws
+aws key
+aws secret
+aws_key
+aws_secret
+awskey
+awssecret
+azure
+azure ad
+azuread
+bearer
+bearer token
+cer
+cert
+certificate
+client id
+client secret
+client_id
+client_secret
+clientid
+clientsecret
+code
+config
+configs
+configuration
+connection string
+connectionstring
+connstring
+credential
+credentials
+creds
+crt
+database
+db password
+db user
+dbpassword
+dbuser
+dc
+domain
+domain admin
+domain controller
+domain name
+domain_admin
+domain_name
+domainadmin
+domaincontroller
+domainname
+entra
+entra id
+entra_id
+entraid
+exchange
+federation
+forest
+gcp
+gcp key
+gcpkey
+gpo
+group policy
+group_policy
+id_rsa
+kerberos
+key
+key store
+keys
+keystore
+keystore pass
+keystorepass
+keyvault
+known_hosts
+krbtgt
+ldap
+ldaps
+login
+m365
+managed identity
+managedidentity
+microsoft entra
+microsoftentra
+msi
+ntds
+ntds.dit
+ntlm
+oauth
+office365
+oidc
+onedrive
+p12
+pass
+passphrase
+passwd
+password
+pem
+pfx
+private key
+privatekey
+public key
+publickey
+pwd
+refresh token
+refreshtoken
+resource group
+resource_group
+resourcegroup
+rid
+sam
+saml
+secret
+secret key
+secretkey
+secrets
+secrets manager
+secretsmanager
+service account
+service principal
+service_principal
+serviceaccount
+serviceprincipal
+settings
+sid
+sign in
+signin
+source
+spn
+ssh
+ssh key
+sshkey
+subscription
+subscription id
+subscription_id
+subscriptionid
+teams
+tenant
+tenant id
+tenant_id
+tenantid
+thumbprint
+token
+tokens
+vault
