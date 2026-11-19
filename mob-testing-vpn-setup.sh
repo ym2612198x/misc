@@ -2,12 +2,25 @@
 # Mobile traffic interception setup
 # iOS device → OpenVPN (tun1) → Burp on 8090 → ctrl testing VPN (tun0) → internet
 #
+# Usage: ./mob-testing-setup.sh <path-to-ctrl-vpn.ovpn>
+#
 # Prerequisites:
 #   - Burp Suite running with proxy listener on 0.0.0.0:8090, invisible proxying ON
-#   - ctrl_vpn.ovpn present at ~/Downloads/ctrl_vpn.ovpn
 #   - Run as a user with sudo access (not root)
 
 set -euo pipefail
+
+if [[ $# -lt 1 ]]; then
+    echo "Usage: $0 <path-to-ctrl-vpn.ovpn>"
+    exit 1
+fi
+
+CTRL_VPN_OVPN="$1"
+
+if [[ ! -f "$CTRL_VPN_OVPN" ]]; then
+    echo "Error: ovpn file not found: $CTRL_VPN_OVPN"
+    exit 1
+fi
 
 VPN_SUBNET="10.9.0.0/24"
 VPN_PORT="1193"
@@ -46,7 +59,7 @@ fi
 # STEP 2: CONNECT CTRL TESTING VPN
 # ─────────────────────────────────────────────
 
-sudo openvpn --daemon --config ~/Downloads/ctrl_vpn.ovpn
+sudo openvpn --daemon --config "$CTRL_VPN_OVPN"
 echo "Waiting for tun0..."
 until ip link show tun0 &>/dev/null; do sleep 1; done
 echo "tun0 is up"
